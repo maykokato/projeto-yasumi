@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:red;
+    --cor2: #590E2A; 
+}
+
+#janela{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#cabecalho{
+    background-color: var(--cor1);   
+    margin: 0px;
+    padding: 1px;
+    color: white;
+    text-align: center;
+    font-family: Playwrite BR Guides;
+}
+
+#cabecalho> h1{
+    font-size: 25px;
+}
+
+nav> a{
+    text-decoration: none;
+    color: rgb(134, 129, 129);
+    margin: auto;
+    padding: 5px;
+    }
+
+nav> a:hover{
+    color: white;
+    background-color: #C4170C;
+    border-radius: 2px;
+}
+
+body{
+    margin: auto;
+    padding: auto;
+    background-color: #F9F9F9;
+}
+
+main{
+        background-color: var(--cor2);
+        padding: 10px;
+        margin: auto;
+        max-width: 1000px;
+        min-width: 300px;
+        color: rgb(134, 129, 129);   
+}
+
+main> h1{
+    background-image: linear-gradient(to right, #8C3048, #590E2A);
+    padding: 2px;
+    border-radius: 0px;
+    outline: 1px auto ;
+    font-family: "Playwrite BR Guides", sans-serif;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.link{
+    text-decoration: underline;
+    color: rgb(134, 129, 129);
+}
+
+.link::after{
+    content: " link";
+    text-decoration: none;
+    font-weight: normal;
+    color: red;
+}
+
+aside{
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+    margin: 50px;
+    padding: 0px 10px 5px 10px;
+}
+
+aside> h2{
+    background-color: red;
+    margin: 20px -10px;
+    padding: 12px;
+    border-radius: 15px 15px 0px 0px;
+    color: white;
+    text-align: center;
+}
+
+aside> ul{
+    columns: 2;
+}
+
+footer{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+footer> a{
+    text-decoration: none;
+    color: white;
+}
+
+footer> a:hover{
+    text-shadow: 0.5px 0 0 currentColor;
+}
+
