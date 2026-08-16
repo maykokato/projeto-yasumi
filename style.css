@@ -113,3 +113,8 @@ footer> a:hover{
     text-shadow: 0.5px 0 0 currentColor;
 }
 
+img{
+     display: block;
+     margin: auto;
+}
+
