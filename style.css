@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Adicionando um comentário */
+
 :root{
     --cor1:red;
     --cor2: #590E2A; 
@@ -60,9 +62,8 @@ main> h1{
     font-family: "Playwrite BR Guides", sans-serif;
 }
 
-img{
-    display: block;
-    margin: auto;
+main> p{
+    text-align: justify;
 }
 
 .link{
@@ -106,21 +107,33 @@ footer{
 
 footer> a{
     text-decoration: none;
+    font-weight: bolder;
     color: white;
-}
-
-footer> a:hover{
-    text-shadow: 0.5px 0 0 currentColor;
-}
-
-img{
-     display: block;
-     margin: auto;
 }
 
 picture {
     display: block;
-    max-width: 100%;
     margin: auto;
+}
+
+picture img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.video {
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 16 / 9;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.video > iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
